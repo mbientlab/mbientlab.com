@@ -441,8 +441,6 @@ a.contact-card { @extend %card-hover; }
 }
 .cta__title { color: #fff; font-size: clamp(1.5rem, 1.1rem + 1.6vw, 2.25rem); letter-spacing: -.03em; }
 .cta__text { margin: 10px 0 0; max-width: 560px; color: #d5f6f8; }
-// The CTA sits on a solid container width, but keep the gutter on small screens.
-.cta .container { max-width: calc(var(--container) - 2 * var(--gutter)); }
 
 // Footer
 .site-footer { background: var(--deep); color: #93a7af; padding-block: clamp(56px, 7vw, 80px) 32px; font-size: .9375rem;
@@ -479,3 +477,6 @@ a.contact-card { @extend %card-hover; }
   th, td { padding: 10px 12px; border-bottom: 1px solid var(--border); text-align: left; }
   .meta { margin-bottom: 2em; }
 }
+
+// Home: two featured sensors, kept to a comfortable card size.
+.card-grid--products { max-width: 820px; margin-inline: auto; }

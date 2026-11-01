@@ -1,5 +1,6 @@
 <section class="cta">
-  <div class="container cta__inner">
+  <div class="container">
+  <div class="cta__inner">
     <div>
       <h2 class="cta__title">{{ include.title | default: "Have a project in mind?" }}</h2>
       <p class="cta__text">{{ include.text | default: "Since 2013 we have helped companies, startups and universities collect sensor data. Tell us what you are building." }}</p>
@@ -8,5 +9,6 @@
       <a class="btn btn--light" href="{{ '/contact/' | relative_url }}">Get in touch</a>
       <a class="btn btn--outline-light" href="{{ site.docs_url }}">Documentation {% include icon.html name="arrow-up-right" class="icon--sm" %}</a>
     </div>
+  </div>
   </div>
 </section>
