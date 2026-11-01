@@ -19,7 +19,7 @@ The site is served at http://localhost:4000.
 
 | Path | Contents |
 | --- | --- |
-| `_pages/` | Site pages (home, store, about, documentation, ...) |
+| `_pages/` | Site pages (home, about, documentation, product pages, ...) |
 | `_posts/` | Research and publication entries, listed at `/blog/` |
 | `_data/navigation.yml` | Top navigation |
 | `assets/img/` | Images |
@@ -32,7 +32,7 @@ The site is served at http://localhost:4000.
 Pushes to `main` build and publish the site through `.github/workflows/pages.yml`.
 Pull requests run a build check only.
 
-## Known gaps from the WordPress site
+## Scope
 
-The old site ran WooCommerce. Cart, checkout, accounts and per-product pages have no static
-equivalent, so product links point to `/store/` until a replacement checkout is chosen.
+The old WordPress site also ran a WooCommerce store. Store, pricing, cart, checkout and account
+pages are intentionally not part of this site.

@@ -1,6 +1,4 @@
 main:
-  - title: "Store"
-    url: /store/
   - title: "Documentation"
     url: /documentation/
   - title: "Getting Started"
