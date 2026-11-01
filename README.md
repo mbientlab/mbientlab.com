@@ -4,7 +4,7 @@ Static Jekyll site for [mbientlab.com](https://mbientlab.com), built on the
 [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) theme and deployed
 with GitHub Pages through GitHub Actions.
 
-The developer documentation lives in its own site and is not part of this repo.
+The developer documentation lives at [docs.mbientlab.com](https://docs.mbientlab.com), which is its own site and is not part of this repo.
 
 ## Local development
 
@@ -19,7 +19,7 @@ The site is served at http://localhost:4000.
 
 | Path | Contents |
 | --- | --- |
-| `_pages/` | Site pages (home, about, documentation, product pages, ...) |
+| `_pages/` | Site pages (home, about, product pages, ...) |
 | `_posts/` | Research and publication entries, listed at `/blog/` |
 | `_data/navigation.yml` | Top navigation |
 | `assets/img/` | Images |

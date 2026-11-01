@@ -57,7 +57,7 @@ def clean(html):
                 # WooCommerce product pages and retired paths have no static equivalent
                 if re.match(r"/(store|boards)/.+|^/boards$", h): h = "/store/"
                 elif h.startswith("/tutorials/"): h = "/gettingstarted/"
-                elif h.startswith("/software"): h = "/documentation/"
+                elif h.startswith("/software"): h = "https://docs.mbientlab.com"
                 h = "{{ '%s' | relative_url }}" % h
             a["href"] = h
             txt = a.get_text(strip=True)

@@ -1,6 +1,6 @@
 main:
   - title: "Documentation"
-    url: /documentation/
+    url: https://docs.mbientlab.com
   - title: "Getting Started"
     url: /gettingstarted/
   - title: "Troubleshooting"
