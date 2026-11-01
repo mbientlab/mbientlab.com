@@ -11,10 +11,8 @@ mmrl:
   card_text: Low-energy 2.4 GHz wireless communication with an ARM Cortex M4 microcontroller, rechargeable battery, accelerometer, gyroscope, magnetometer and sensor fusion.
   bullets:
     - Gyroscope, accelerometer, magnetometer and sensor fusion.
-    - Real-time communication is achieved via Bluetooth LE.
     - Data may also be logged in the 8MB NOR flash memory.
     - A water-resistant case can be added to bands and more.
-    - Use for motion applications and scientific research.
     - Free, open-source APIs and apps for fast data acquisition.
   quick:
     - { value: "0.2 oz", label: Weight }
@@ -79,11 +77,9 @@ mms:
   bullets:
     - Gyroscope, accelerometer, magnetometer and sensor fusion.
     - Barometric pressure and ambient light sensor.
-    - Real-time communication is achieved via Bluetooth LE.
     - Download sensor data fast with USB.
     - Data may also be logged in the 512MB NAND flash memory.
     - A water-resistant case can be added to bands and more.
-    - Use for motion applications and scientific research.
     - Free, open-source APIs and apps for fast data acquisition.
   quick:
     - { value: "0.2 oz", label: Weight }
