@@ -195,6 +195,7 @@ a:hover .link-arrow .icon, .link-arrow:hover .icon { transform: translateX(3px);
 .media-card--cover img { aspect-ratio: 1; object-fit: cover; }
 .media-card--padded { padding: clamp(24px, 4vw, 48px); }
 .media-card--white { background: #fff; }
+.media-card--tall { padding: clamp(32px, 5vw, 64px) clamp(12px, 2vw, 20px); }
 
 .gallery { display: grid; grid-template-columns: 1fr 1fr; gap: 16px;
   img { width: 100%; aspect-ratio: 1; object-fit: cover; border-radius: var(--radius); border: 1px solid var(--border); }
