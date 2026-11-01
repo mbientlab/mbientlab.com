@@ -7,9 +7,6 @@ main:
       - title: MetaMotionS
         description: 10-axis IMU with 512MB memory
         url: /metamotions/
-      - title: MetaHub
-        description: Raspberry Pi IoT gateway
-        url: /metahub/
   - title: Documentation
     url: https://docs.mbientlab.com
     external: true
@@ -31,7 +28,6 @@ footer:
     links:
       - { title: MetaMotionRL, url: /metamotionrl/ }
       - { title: MetaMotionS, url: /metamotions/ }
-      - { title: MetaHub, url: /metahub/ }
   - title: Support
     links:
       - { title: Getting started, url: /gettingstarted/ }

@@ -22,13 +22,12 @@ The site is served at http://localhost:4000.
 | `_includes/` | Header, footer, hero, CTA, cards and the inline SVG icon set (`icon.html`) |
 | `_sass/` | `_tokens.scss` (colors, type, spacing, dark mode), `_base.scss`, `_components.scss` |
 | `assets/css/main.scss`, `assets/js/main.js` | Stylesheet entry point; mobile menu, dropdowns, TOC highlighting |
-| `_data/products.yml` | All MMRL, MMS and MetaHub content and specs; product pages render from it |
+| `_data/products.yml` | All MMRL and MMS content and specs; product pages render from it |
 | `_data/navigation.yml` | Header and footer navigation |
 | `_pages/` | Pages. Home, About, Troubleshooting and Getting started keep their content in front matter |
 | `_posts/` | Research entries (`year`, `authors`, `venue`, `paper_url` in front matter), listed at `/blog/` |
 | `assets/img/` | Images |
 | `docs/` | Legacy datasheet PDFs, kept so old `/docs/*.pdf` links keep working |
-| `tools/convert.py` | One-off WordPress/Elementor export converter used for the initial import |
 
 ## Theme
 
@@ -42,8 +41,3 @@ The site is served at http://localhost:4000.
 
 Pushes to `main` build and publish the site through `.github/workflows/pages.yml`.
 Pull requests run a build check only.
-
-## Scope
-
-The old WordPress site also ran a WooCommerce store. Store, pricing, cart, checkout and account
-pages are intentionally not part of this site.
