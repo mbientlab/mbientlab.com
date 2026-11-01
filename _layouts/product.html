@@ -120,17 +120,4 @@ layout: default
   </div>
 </section>
 
-<section class="section section--tight">
-  <div class="container">
-    <h2 class="h3 related-title">Explore other sensors</h2>
-    <div class="card-grid card-grid--2">
-      {%- for entry in site.data.products %}{%- assign o = entry[1] -%}
-      {%- if entry[0] != page.product %}
-      {% include product-card.html p=o compact=true %}
-      {%- endif %}
-      {%- endfor %}
-    </div>
-  </div>
-</section>
-
 {% include cta.html %}

@@ -249,12 +249,6 @@ a:hover .link-arrow .icon, .link-arrow:hover .icon { transform: translateX(3px);
 .product-card__more { margin-top: auto; display: inline-flex; align-items: center; gap: 6px; color: var(--link); font-weight: 600; font-size: .9375rem;
   .icon { transition: transform .18s var(--ease); } }
 .product-card:hover .product-card__more .icon { transform: translateX(3px); }
-.product-card--compact {
-  flex-direction: row; align-items: stretch;
-  .product-card__media { aspect-ratio: auto; width: 38%; flex: none; }
-  .product-card__body { padding: 20px; }
-  .product-card__title { font-size: 1.125rem; }
-}
 
 .feature-grid { list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 16px;
   > li { flex: 1 1 240px; max-width: calc((100% - 48px) / 4); }
@@ -369,7 +363,6 @@ a.contact-card { @extend %card-hover; }
   dt { color: var(--text-3); font-size: .8125rem; }
   dd { color: var(--text); font-size: .875rem; font-weight: 500; font-variant-numeric: tabular-nums; }
 }
-.related-title { margin-bottom: 20px; }
 
 // Getting started and troubleshooting
 .steps { list-style: none; display: grid; gap: 14px; }
