@@ -1,0 +1,12 @@
+---
+title: "Research"
+permalink: /blog/
+layout: single
+classes: wide
+---
+<p>Publications and projects built on MbientLab sensors.</p>
+<ul>
+{% for post in site.posts %}
+  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><br><small>{{ post.excerpt | strip_html | truncate: 140 }}</small></li>
+{% endfor %}
+</ul>

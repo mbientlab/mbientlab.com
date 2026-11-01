@@ -1,0 +1,13 @@
+main:
+  - title: "Documentation"
+    url: https://docs.mbientlab.com
+  - title: "Getting Started"
+    url: /gettingstarted/
+  - title: "Troubleshooting"
+    url: /troubleshooting/
+  - title: "Research"
+    url: /blog/
+  - title: "About"
+    url: /about/
+  - title: "Contact"
+    url: /contact/
