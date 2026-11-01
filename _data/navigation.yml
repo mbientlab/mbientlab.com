@@ -1,13 +1,49 @@
 main:
-  - title: "Documentation"
+  - title: Sensors
+    children:
+      - title: MetaMotionRL
+        description: 9-axis IMU, ultra-light
+        url: /metamotionrl/
+      - title: MetaMotionS
+        description: 10-axis IMU with 512MB memory
+        url: /metamotions/
+      - title: MetaHub
+        description: Raspberry Pi IoT gateway
+        url: /metahub/
+  - title: Documentation
     url: https://docs.mbientlab.com
-  - title: "Getting Started"
-    url: /gettingstarted/
-  - title: "Troubleshooting"
-    url: /troubleshooting/
-  - title: "Research"
+    external: true
+  - title: Support
+    children:
+      - title: Getting started
+        description: Wake up and connect your sensor
+        url: /gettingstarted/
+      - title: Troubleshooting
+        description: Checklists, resets and warranty
+        url: /troubleshooting/
+  - title: Research
     url: /blog/
-  - title: "About"
+  - title: About
     url: /about/
-  - title: "Contact"
-    url: /contact/
+
+footer:
+  - title: Sensors
+    links:
+      - { title: MetaMotionRL, url: /metamotionrl/ }
+      - { title: MetaMotionS, url: /metamotions/ }
+      - { title: MetaHub, url: /metahub/ }
+  - title: Support
+    links:
+      - { title: Getting started, url: /gettingstarted/ }
+      - { title: Troubleshooting, url: /troubleshooting/ }
+      - { title: Documentation, url: "https://docs.mbientlab.com" }
+  - title: Company
+    links:
+      - { title: About, url: /about/ }
+      - { title: Research, url: /blog/ }
+      - { title: Contact, url: /contact/ }
+  - title: Legal
+    links:
+      - { title: Terms, url: /terms/ }
+      - { title: Privacy, url: /privacy/ }
+      - { title: Software license, url: /msla/ }

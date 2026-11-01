@@ -129,6 +129,6 @@ def main():
         data = {"title": title, "date": p["date"].replace("T"," ")+" +0000", "layout": "single",
                 "permalink": f"/blog/{slug}/", "author_profile": False}
         if exc: data["excerpt"] = exc[:300]
-        open(f"{ROOT}/_posts/{date}-{slug[:80]}.html", "w").write(fm(data) + body + "\n")
+        open(f"{ROOT}/_posts/{date}-{slug}.html", "w").write(fm(data) + body + "\n")
     print("posts", len(posts), "images", len(os.listdir(IMG)))
 main()

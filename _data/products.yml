@@ -1,0 +1,210 @@
+mmrl:
+  name: MetaMotionRL
+  short: MMRL
+  url: /metamotionrl/
+  badge: 9-axis IMU
+  tagline: 9-axis IMU and environment monitoring sensor
+  lead: A wearable device that offers real-time and continuous monitoring of motion and environmental sensor data.
+  headline: Light. Wearable. Rechargeable. Powerful.
+  image: metamotion-2.png
+  card_image: mmrl-board-only-5.jpg
+  card_text: Low-energy 2.4 GHz wireless communication with an ARM Cortex M4 microcontroller, rechargeable battery, accelerometer, gyroscope, magnetometer and sensor fusion.
+  bullets:
+    - Gyroscope, accelerometer, magnetometer and sensor fusion.
+    - Real-time communication is achieved via Bluetooth LE.
+    - Data may also be logged in the 8MB NOR flash memory.
+    - A water-resistant case can be added to bands and more.
+    - Use for motion applications and scientific research.
+    - Free, open-source APIs and apps for fast data acquisition.
+  quick:
+    - { value: "0.2 oz", label: Weight }
+    - { value: "27 × 27 × 4 mm", label: In case }
+    - { value: "8 MB", label: NOR flash }
+    - { value: "BLE 4.0", label: Wireless }
+  feature:
+    title: 9-axis IMU + Bosch Kalman filter sensor fusion
+    text: The sensor fusion algorithm combines inertial and magnetic measurements to provide drift-free orientation.
+    image: Board4-updated.png
+  specs_intro: Unobtrusive monitoring and clinical quality observation. Record in the lab or at home with no hassle. Obtain accurate and precise sensor data.
+  specs_image: mio_sensor_04-730x1024.png
+  specs:
+    - { icon: feather, label: Weight, value: Ultra lightweight at just 0.2 oz }
+    - { icon: clock, label: Synchronized timestamps, value: All data is timestamped for synchronization purposes }
+    - { icon: battery, label: LiPo battery, value: "70–100 mAh, micro-USB rechargeable. Charging time: 2 h" }
+    - { icon: droplet, label: Splash resistant, value: IP40 plastic case snaps together }
+    - { icon: shield, label: Regulatory compliance, value: "CE, FCC, IC, RoHS" }
+    - { icon: code, label: Programmable, value: "Swift, C++, Java, JavaScript and Python APIs used to communicate with the device" }
+    - { icon: box, label: Miniature form factor, value: "27 mm × 27 mm × 4 mm in case" }
+    - { icon: activity, label: Usage modes, value: "Streaming: 8–24 h. Recording: 2–48 h" }
+    - { icon: power, label: Low power consumption, value: Sleep mode supports 6 months idle time and 1 week active time }
+    - { icon: bluetooth, label: Data transfer, value: Bluetooth Low Energy 4.0 Smart® }
+    - { icon: database, label: Flash memory, value: 8MB NOR. Up to 1M data entries }
+    - { icon: users, label: Typical usage, value: "Patient monitoring, motion capture, STEM learning and more" }
+  sensors_intro: Ideal for monitoring fast moving objects, humans or animals. Great for scientific and patient studies in clinical settings.
+  sensors:
+    - group: Sensors
+      items:
+        - name: Gyroscope
+          rows: [[Range, "±125, ±250, ±500, ±1000, ±2000 °/s"], [Resolution, 16 bit], [Sample rate, "0.001 Hz – 100 Hz stream, 800 Hz log"]]
+        - name: Accelerometer
+          rows: [[Range, "±2, ±4, ±8, ±16 g"], [Resolution, 16 bit], [Sample rate, "0.001 Hz – 100 Hz stream, 800 Hz log"]]
+        - name: Magnetometer
+          rows: [[Range, "±1300 μT (x, y-axis), ±2500 μT (z-axis)"], [Resolution, 0.3 μT], [Sample rate, "0.001 Hz – 25 Hz"]]
+        - name: Sensor fusion
+          rows: [[Outputs, "Quaternion, Euler angles (yaw, pitch, roll), linear acceleration, Earth acceleration (gravity), robust heading"], [Accuracy, "< 1° RMS"], [Sample rate, 100 Hz]]
+    - group: Interfaces
+      items:
+        - name: IOs
+          rows: [[Channels, 2 (with 4 additional SMP IOs under the board)], [Range, 0 V to 3.1 V], [Resolution, 10-bit]]
+        - name: Serial
+          rows: [[Available, I2C and SPI], [Voltage, 3.0 V]]
+        - name: Memory
+          rows: [[On-board, Programmable push-button and LED], [Memory, "8MB NOR flash memory – store up to 1M sensor data entries"]]
+  develop:
+    - Our APIs support Android, iOS, Windows and Linux development. Platforms supported include Xcode, Android Studio and Visual Studio.
+    - Our open-source APIs are available in Swift, C++, C#, Java, and JavaScript. Additional documentation, tutorials, and free example apps are available.
+  gallery: [metamotionr4.jpg, metamotionr5.jpg]
+
+mms:
+  name: MetaMotionS
+  short: MMS
+  url: /metamotions/
+  badge: 10-axis IMU
+  tagline: 10-axis IMU and environment monitoring sensor
+  lead: A wearable device that offers real-time and continuous monitoring of motion and environmental sensor data.
+  headline: Durable. Wearable. Rechargeable. Powerful.
+  image: metamotion-2.png
+  card_image: mms-board-only.jpg
+  card_text: Low-energy 2.4 GHz wireless communication with an ARM Cortex M4 microcontroller, rechargeable battery, temperature, accelerometer, gyroscope, pressure and ambient light sensor.
+  bullets:
+    - Gyroscope, accelerometer, magnetometer and sensor fusion.
+    - Barometric pressure and ambient light sensor.
+    - Real-time communication is achieved via Bluetooth LE.
+    - Download sensor data fast with USB.
+    - Data may also be logged in the 512MB NAND flash memory.
+    - A water-resistant case can be added to bands and more.
+    - Use for motion applications and scientific research.
+    - Free, open-source APIs and apps for fast data acquisition.
+  quick:
+    - { value: "0.2 oz", label: Weight }
+    - { value: "27 × 27 × 4 mm", label: In case }
+    - { value: "512 MB", label: NAND flash }
+    - { value: "BLE 5.0", label: Wireless }
+  feature:
+    title: 10-axis IMU + Bosch Kalman filter sensor fusion
+    text: The sensor fusion algorithm combines inertial and magnetic measurements to provide drift-free orientation.
+    image: Board4-updated.png
+  specs_intro: Unobtrusive monitoring and clinical quality observation. Record in the lab or at home with no hassle. Obtain accurate and precise sensor data.
+  specs_image: mio_sensor_04-730x1024.png
+  specs:
+    - { icon: feather, label: Weight, value: Ultra lightweight at just 0.2 oz }
+    - { icon: clock, label: Synchronized timestamps, value: All data is timestamped for synchronization purposes }
+    - { icon: battery, label: LiPo battery, value: "70–100 mAh, micro-USB rechargeable. Charging time: 2 h" }
+    - { icon: droplet, label: Splash resistant, value: IP40 plastic case snaps together }
+    - { icon: shield, label: Regulatory compliance, value: "CE, FCC, IC, RoHS" }
+    - { icon: code, label: Programmable, value: "Swift, C++, Java, JavaScript and Python APIs used to communicate with the device" }
+    - { icon: box, label: Miniature form factor, value: "27 mm × 27 mm × 4 mm in case" }
+    - { icon: activity, label: Usage modes, value: "Streaming: 24–48 h. Recording: 24–72 h" }
+    - { icon: power, label: Low power consumption, value: Sleep mode supports 6 months idle time and 1 week active time }
+    - { icon: bluetooth, label: Data transfer, value: Bluetooth Low Energy Smart® v5.0 }
+    - { icon: database, label: Flash memory, value: 512MB NAND. Up to 100M data entries }
+    - { icon: users, label: Typical usage, value: "Monitor patients, motion capture, analyze balance, gait and more" }
+  sensors_intro: Ideal for research, clinical studies, prototyping, POCs and products such as indoor navigation, gait analysis, gaming, drones, smart farming, fall prevention, and robotics. Works for fast moving objects, humans or animals.
+  sensors:
+    - group: Sensors
+      items:
+        - name: Gyroscope
+          rows: [[Range, "±125, ±250, ±500, ±1000, ±2000 °/s"], [Resolution, 16 bit], [Sample rate, "0.001 Hz – 100 Hz stream, 800 Hz log"]]
+        - name: Accelerometer
+          rows: [[Range, "±2, ±4, ±8, ±16 g"], [Resolution, 16 bit], [Sample rate, "0.001 Hz – 100 Hz stream, 800 Hz log"]]
+        - name: Magnetometer
+          rows: [[Range, "±1300 μT (x, y-axis), ±2500 μT (z-axis)"], [Resolution, 0.3 μT], [Sample rate, "0.001 Hz – 25 Hz"]]
+        - name: Barometer
+          rows: [[Range, "300 – 1100 hPa"], [Resolution, "0.01 hPa (< 10 cm)"], [Accuracy, "~±1 hPa (abs), ±0.12 hPa (±1 m – rel)"], [Sample rate, "0.001 Hz – 50 Hz"]]
+        - name: Sensor fusion
+          rows: [[Outputs, "Quaternion, Euler angles (yaw, pitch, roll), linear acceleration, Earth acceleration (gravity), robust heading"], [Accuracy, "< 1° RMS"], [Sample rate, 100 Hz]]
+        - name: Temperature
+          rows: [[Range, "-40 °C – 85 °C"], [Resolution, 16 bit], [Sample rate, "0.001 Hz – 50 Hz"]]
+        - name: Ambient light
+          rows: [[Range, "0.01 lux – 64k lux"], [Resolution, 16 bit], [Sample rate, "0.001 Hz – 50 Hz"]]
+    - group: Interfaces
+      items:
+        - name: IOs
+          rows: [[Channels, 2 (with 4 additional SMP IOs under the board)], [Range, 0 V to 3.1 V], [Resolution, 10-bit]]
+        - name: Serial
+          rows: [[Available, I2C and SPI], [Voltage, 3.0 V]]
+        - name: Memory
+          rows: [[On-board, Programmable push-button and LED], [Memory, "8MB NOR flash memory – store up to 1M sensor data entries"]]
+  develop:
+    - Our APIs support Android, iOS, Windows and Linux development. Platforms supported include Xcode, Android Studio and Visual Studio.
+    - Our open-source APIs are available in Swift, C++, C#, Java, and JavaScript. Additional documentation, tutorials, and free example apps are available.
+  gallery: [metamotionr4.jpg, metamotionr5.jpg]
+
+mth:
+  name: MetaHub
+  short: MTH
+  url: /metahub/
+  badge: IoT gateway
+  tagline: Raspberry Pi based IoT gateway for your MetaSensors
+  lead: A powerful and cost-effective solution for large-scale, low-power wireless deployments.
+  headline: Simple, flexible IoT connectivity.
+  image: metahub-3.jpg
+  card_image: metahub-3.jpg
+  card_text: Raspberry Pi based Bluetooth to Wi-Fi gateway. Manage multiple MetaSensors locally and graph their data live.
+  bullets:
+    - Pre-loaded with the Raspbian OS and MetaHub app.
+    - Send commands to multiple MetaSensors.
+    - Graph sensor data live on the screen.
+    - Use our developer tools to build your own app.
+    - Includes APIs to simplify connectivity to MetaSensors.
+    - Run your own application on the Hub.
+    - Reduced latency, local management of MetaSensors.
+    - Networking includes Bluetooth LE, Wi-Fi, and LAN.
+    - Just plug in a mouse, keyboard, and LCD screen.
+  quick:
+    - { value: "3.1 oz", label: Weight }
+    - { value: "94 × 63 × 31 mm", label: Case }
+    - { value: "8–16 GB", label: SD card }
+    - { value: "BLE · Wi-Fi · LAN", label: Networking }
+  feature:
+    title: Bluetooth to Wi-Fi IoT gateway
+    text: MTH offers a powerful and cost-effective solution for large-scale low-power wireless deployments.
+    image: metahub-2.png
+  specs_intro: Real-time monitoring and management of IoT sensors and devices. APIs for rich IoT application development.
+  specs_image: metahub-4.jpg
+  specs:
+    - { icon: feather, label: Weight, value: Ultra lightweight at just 3.1 oz }
+    - { icon: clock, label: Synchronized timestamps, value: All data is timestamped for synchronization purposes }
+    - { icon: zap, label: Power, value: Micro-USB power ensures the Hub works anywhere in the world }
+    - { icon: droplet, label: Splash resistant, value: "Unibody, neat, dust-proof, hard and durable plastic case" }
+    - { icon: shield, label: Regulatory compliance, value: "CE, FCC, IC, RoHS" }
+    - { icon: layers, label: Supports multiple sensors, value: Add BLE-USB dongles to connect more MetaSensors to the Hub }
+    - { icon: activity, label: Easy to use, value: Graph sensor data live with MetaBase }
+    - { icon: power, label: Plug-n-play, value: Set up the apps and scripts to run specific commands on boot }
+    - { icon: box, label: Small form factor, value: "PCB: 85.6 × 56 × 21 mm. Case: 94 × 63 × 31 mm" }
+    - { icon: database, label: Memory, value: 8GB or 16GB SD card can store millions of sensor data entries }
+    - { icon: bluetooth, label: Data transfer, value: Bluetooth Low Energy Smart® v4.0/5.0 }
+    - { icon: users, label: Typical usage, value: Getting data from multiple MetaSensors at once or remote monitoring }
+  sensors_title: Board specification
+  sensors_intro: The gateway offers higher throughput, more capacity, and less interference, while providing easy management.
+  sensors:
+    - group: Hardware
+      items:
+        - name: Raspberry Pi
+          rows: [[CPU, "Quad core 1.2 GHz Broadcom BCM2837 64-bit CPU (some model 2835), 700 MHz ARM1176JZF-S core CPU"], [Video, "Broadcom VideoCore IV GPU, HDMI"], [Audio, 3.5 mm jack or audio over HDMI], [Memory, 512MB RAM / 1GB RAM], [Storage, SD/MMC/SDIO], [Ethernet, 10/100 Ethernet (RJ45)], [I/Os, "4 USB 2 ports, 40-pin extended GPIO"], [Wireless, "BCM43438 wireless LAN, Bluetooth Low Energy (BLE)"]]
+        - name: Power
+          rows: [[Micro USB, "5 V @ 700 mA (up to 2.5 A)"]]
+        - name: Peripherals
+          rows: [[GPIOs, "8"], [UART, "1"], [I2C, "1"], [SPI, "1"], [Power, 3.3 V – 5 V], [Ground, 0 V]]
+    - group: Software and enclosure
+      items:
+        - name: OS
+          rows: [[Micro SD card, SanDisk 8GB or 16GB class 10 (or similar)], [Linux distro, Raspbian with MetaBase app (or similar)]]
+        - name: Case
+          rows: [[ABS plastic, Black or white], [Construction, Assembles 2 pieces with 4 screws]]
+        - name: Usage
+          rows: [[Linux mini computer, "Plug an LCD screen into the HDMI port and a keyboard and mouse into the USB ports, power up via the micro-USB to AC adapter, and use the MTH as a computer."]]
+  develop_title: Powerful software
+  develop:
+    - The MetaBase app imports your data via Bluetooth into the device of your choice, and stores it. Use the app to configure the sensors at any frequency.
+  gallery: [hub-1.jpg, hub-2.jpg]

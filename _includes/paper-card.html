@@ -1,0 +1,6 @@
+{%- assign post = include.post -%}
+<a class="paper" href="{{ post.url | relative_url }}">
+  <span class="paper__meta">{% if post.year %}<span class="pill pill--soft">{{ post.year }}</span>{% endif %}{% if post.venue %}<span class="paper__venue">{{ post.venue }}</span>{% endif %}</span>
+  <span class="paper__title">{{ post.title }}</span>
+  {%- if post.authors %}<span class="paper__authors">{{ post.authors }}</span>{% endif %}
+</a>

@@ -1,0 +1,136 @@
+---
+layout: default
+---
+{%- assign p = site.data.products[page.product] -%}
+<section class="product-hero">
+  <div class="container product-hero__grid">
+    <div class="product-hero__copy">
+      <p class="eyebrow"><span class="pill">{{ p.short }}</span> {{ p.badge }}</p>
+      <h1 class="product-hero__title">{{ p.name }}</h1>
+      <p class="product-hero__tagline">{{ p.tagline }}</p>
+      <p class="product-hero__lead">{{ p.lead }}</p>
+      <div class="btn-row">
+        <a class="btn btn--primary" href="{{ site.docs_url }}">View documentation {% include icon.html name="arrow-up-right" class="icon--sm" %}</a>
+        <a class="btn btn--ghost" href="#specs">Technical specs</a>
+      </div>
+    </div>
+    <div class="product-hero__media">
+      <div class="product-hero__glow" aria-hidden="true"></div>
+      <img src="{{ '/assets/img/' | append: p.image | relative_url }}" alt="{{ p.name }}" width="560" height="560">
+    </div>
+  </div>
+  <div class="container">
+    <dl class="quick-stats">
+      {%- for q in p.quick %}
+      <div class="quick-stats__item"><dt>{{ q.label }}</dt><dd>{{ q.value }}</dd></div>
+      {%- endfor %}
+    </dl>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split">
+    <div class="split__copy">
+      <p class="eyebrow">Overview</p>
+      <h2 class="h2">{{ p.headline }}</h2>
+      <ul class="checklist">
+        {%- for b in p.bullets %}
+        <li>{% include icon.html name="check" class="checklist__icon" stroke=2.25 %}<span>{{ b }}</span></li>
+        {%- endfor %}
+      </ul>
+    </div>
+    <figure class="split__media media-card media-card--contain">
+      <img src="{{ '/assets/img/' | append: p.feature.image | relative_url }}" alt="" loading="lazy">
+    </figure>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="container narrow center">
+    <p class="eyebrow">Inside</p>
+    <h2 class="h2">{{ p.feature.title }}</h2>
+    <p class="lead">{{ p.feature.text }}</p>
+  </div>
+</section>
+
+<section class="section" id="specs">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Technical specifications</p>
+      <h2 class="h2">Built for real-world data collection</h2>
+      <p class="lead">{{ p.specs_intro }}</p>
+    </div>
+    <div class="spec-layout">
+      <ul class="spec-grid">
+        {%- for s in p.specs %}
+        <li class="spec">
+          <span class="spec__icon">{% include icon.html name=s.icon %}</span>
+          <div><h3 class="spec__label">{{ s.label }}</h3><p class="spec__value">{{ s.value }}</p></div>
+        </li>
+        {%- endfor %}
+      </ul>
+      <figure class="spec-layout__media media-card media-card--contain">
+        <img src="{{ '/assets/img/' | append: p.specs_image | relative_url }}" alt="" loading="lazy">
+      </figure>
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow">Specification</p>
+      <h2 class="h2">{{ p.sensors_title | default: "Sensor specification" }}</h2>
+      <p class="lead">{{ p.sensors_intro }}</p>
+    </div>
+    {%- for g in p.sensors %}
+    <h3 class="group-title">{{ g.group }}</h3>
+    <div class="sensor-grid">
+      {%- for item in g.items %}
+      <div class="sensor-card">
+        <h4 class="sensor-card__name">{{ item.name }}</h4>
+        <dl class="sensor-card__rows">
+          {%- for r in item.rows %}
+          <div><dt>{{ r[0] }}</dt><dd>{{ r[1] }}</dd></div>
+          {%- endfor %}
+        </dl>
+      </div>
+      {%- endfor %}
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
+<section class="section">
+  <div class="container split split--reverse">
+    <div class="split__copy">
+      <p class="eyebrow">Software</p>
+      <h2 class="h2">{{ p.develop_title | default: "Develop your own apps" }}</h2>
+      {%- for d in p.develop %}<p class="body-lg">{{ d }}</p>{% endfor %}
+      <div class="btn-row">
+        <a class="btn btn--primary" href="{{ site.docs_url }}">Read the docs {% include icon.html name="arrow-up-right" class="icon--sm" %}</a>
+        <a class="btn btn--ghost" href="{{ site.github_url }}">{% include icon.html name="github" class="icon--sm" %} GitHub</a>
+      </div>
+    </div>
+    <div class="split__media gallery">
+      {%- for g in p.gallery %}
+      <img src="{{ '/assets/img/' | append: g | relative_url }}" alt="" loading="lazy">
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tight">
+  <div class="container">
+    <h2 class="h3 related-title">Explore other sensors</h2>
+    <div class="card-grid card-grid--2">
+      {%- for entry in site.data.products %}{%- assign o = entry[1] -%}
+      {%- if entry[0] != page.product %}
+      {% include product-card.html p=o compact=true %}
+      {%- endif %}
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+{% include cta.html %}

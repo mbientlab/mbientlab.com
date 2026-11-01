@@ -1,52 +1,41 @@
 ---
-title: "Contact"
-permalink: "/contact/"
-layout: "single"
-classes: "wide"
-author_profile: false
-last_modified_at: "2023-11-09"
+title: Contact
+permalink: /contact/
+layout: default
+description: Get in touch with MbientLab for technical support and questions about MetaSensors.
 ---
-<i></i> 
+{% include page-hero.html eyebrow="Contact" title="Get in touch" lead="Questions about MetaSensors, a research project or a technical issue? We are happy to help." %}
 
-<h3>
+<section class="section section--tight">
+  <div class="container">
+    <div class="card-grid card-grid--3">
+      <a class="contact-card" href="mailto:{{ site.email }}">
+        <span class="contact-card__icon">{% include icon.html name="mail" %}</span>
+        <h2 class="contact-card__title">Email</h2>
+        <p class="contact-card__text">{{ site.email }}</p>
+        <span class="link-arrow">Send an email {% include icon.html name="arrow-right" class="icon--sm" %}</span>
+      </a>
+      <a class="contact-card" href="{{ '/troubleshooting/' | relative_url }}">
+        <span class="contact-card__icon">{% include icon.html name="life-buoy" %}</span>
+        <h2 class="contact-card__title">Support</h2>
+        <p class="contact-card__text">Email us for technical issues. Run through the troubleshooting checklist first, since it solves most problems.</p>
+        <span class="link-arrow">Troubleshooting {% include icon.html name="arrow-right" class="icon--sm" %}</span>
+      </a>
+      <div class="contact-card">
+        <span class="contact-card__icon">{% include icon.html name="map-pin" %}</span>
+        <h2 class="contact-card__title">Office</h2>
+        <p class="contact-card__text">{{ site.address }}</p>
+      </div>
+    </div>
 
-							SUPPORT						
-</h3>
-<p>
-						Email us for technical issues					</p>
-
-<i></i> 
-
-<h3>
-
-							Email						
-</h3>
-<p>
-						hello@mbientlab.com					</p>
-
-<i></i> 
-
-<h3>
-
-							Offices						
-</h3>
-<p>
-						2758 Lantz Ave, San Jose, CA 95124					</p>
-
-<h2>Connect on Social:</h2> 
-
-<a href="https://www.facebook.com/mbientLab/">
-Facebook
-<i></i> </a>
-
-<a href="https://twitter.com/mbientLab">
-Twitter
-<i></i> </a>
-
-<a href="https://www.instagram.com/mbientlab/">
-Instagram
-<i></i> </a>
-
-<a href="https://github.com/mbientlab">
-Github
-<i></i> </a>
+    <div class="social-panel">
+      <h2 class="h3">Connect on social</h2>
+      <ul class="social-buttons">
+        <li><a class="btn btn--ghost" href="https://github.com/mbientlab">{% include icon.html name="github" class="icon--sm" %} GitHub</a></li>
+        <li><a class="btn btn--ghost" href="https://twitter.com/mbientLab">{% include icon.html name="twitter" class="icon--sm" %} X (Twitter)</a></li>
+        <li><a class="btn btn--ghost" href="https://www.facebook.com/mbientLab/">{% include icon.html name="facebook" class="icon--sm" %} Facebook</a></li>
+        <li><a class="btn btn--ghost" href="https://www.instagram.com/mbientlab/">{% include icon.html name="instagram" class="icon--sm" %} Instagram</a></li>
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,25 +1,56 @@
 ---
-title: "Getting Started"
-permalink: "/gettingstarted/"
-layout: "single"
-classes: "wide"
-author_profile: false
-last_modified_at: "2022-07-09"
+title: Getting started
+permalink: /gettingstarted/
+layout: default
+description: Wake up your MetaSensor and start collecting data in minutes.
+steps:
+  - { icon: zap, title: Charge to wake it up, text: "MetaSensors (MMR, MMRL, MMS) ship in sleep mode to save battery. Plug in the micro-USB cable to wake yours up, and charge for at least 40 minutes." }
+  - { icon: smartphone, title: Connect with the app, text: "Turn on Bluetooth and open the free MetaWear app. The first connection can take up to 40 seconds. Connect through the app, not your phone's Bluetooth settings." }
+  - { icon: refresh, title: Update the firmware, text: "Keep your sensor on the latest firmware from inside the app, so you get the newest features and fixes." }
+  - { icon: code, title: Build your own, text: "Ready for more? Our open-source APIs and tutorials cover Swift, Kotlin, C++ and more." }
 ---
-<h2>USING YOUR METASENSOR:</h2> 
+{% include page-hero.html eyebrow="Support" title="Getting started with your MetaSensor" lead="From unboxing to your first data stream in a few minutes." %}
 
-<img alt="" loading="lazy" src="{{ '/assets/img/MetaMotionR-t.png' | relative_url }}"/> 
+<section class="section section--tight">
+  <div class="container split">
+    <ol class="steps">
+      {%- for s in page.steps %}
+      <li class="step">
+        <span class="step__num">{{ forloop.index }}</span>
+        <div>
+          <h2 class="step__title">{{ s.title }}</h2>
+          <p>{{ s.text }}</p>
+        </div>
+      </li>
+      {%- endfor %}
+    </ol>
+    <figure class="split__media media-card">
+      <img src="{{ '/assets/img/MetaMotionR-t.png' | relative_url }}" alt="MetaSensor diagram with the USB port, push button, LED and vent labeled" width="500" height="300">
+    </figure>
+  </div>
+</section>
 
-<p>Wake up your MetaSensor (MMR, MMRL, MMS) by charging it.</p> 
-
-<a class="btn btn--primary" href="{{ '/gettingstarted/' | relative_url }}">
-
-GET STARTED WITH THE MMS
-
-</a>
-
-<a href="{{ '/gettingstarted/' | relative_url }}">
-
-GET STARTED WITH THE MMRL
-
-</a>
+<section class="section section--tint">
+  <div class="container">
+    <div class="card-grid card-grid--3">
+      <a class="contact-card" href="{{ site.app_store_url }}">
+        <span class="contact-card__icon">{% include icon.html name="smartphone" %}</span>
+        <h2 class="contact-card__title">MetaWear for iOS</h2>
+        <p class="contact-card__text">Configure sensors, stream and log data, and update firmware from your iPhone.</p>
+        <span class="link-arrow">App Store {% include icon.html name="arrow-up-right" class="icon--sm" %}</span>
+      </a>
+      <a class="contact-card" href="{{ site.docs_url }}">
+        <span class="contact-card__icon">{% include icon.html name="book" %}</span>
+        <h2 class="contact-card__title">Tutorials and docs</h2>
+        <p class="contact-card__text">Step-by-step guides for the MMS and MMRL, plus the full API reference.</p>
+        <span class="link-arrow">docs.mbientlab.com {% include icon.html name="arrow-up-right" class="icon--sm" %}</span>
+      </a>
+      <a class="contact-card" href="{{ '/troubleshooting/' | relative_url }}">
+        <span class="contact-card__icon">{% include icon.html name="life-buoy" %}</span>
+        <h2 class="contact-card__title">Something not working?</h2>
+        <p class="contact-card__text">Checklists, soft and hard resets, and warranty information.</p>
+        <span class="link-arrow">Troubleshooting {% include icon.html name="arrow-right" class="icon--sm" %}</span>
+      </a>
+    </div>
+  </div>
+</section>

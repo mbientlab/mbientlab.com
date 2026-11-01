@@ -1,12 +1,27 @@
 ---
-title: "Research"
+title: Research
 permalink: /blog/
-layout: single
-classes: wide
+layout: default
+description: Publications and projects built on MbientLab sensors.
 ---
-<p>Publications and projects built on MbientLab sensors.</p>
-<ul>
-{% for post in site.posts %}
-  <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a><br><small>{{ post.excerpt | strip_html | truncate: 140 }}</small></li>
-{% endfor %}
-</ul>
+{%- assign papers = site.posts | sort: "year" | reverse -%}
+{%- assign years = papers | map: "year" | uniq -%}
+{% include page-hero.html eyebrow="Research" title="Science built on MetaSensors" lead="MbientLab sensors have been cited in more than 1,000 publications, from gait analysis and rehabilitation to robotics and smart farming. Here are some of our favorites." %}
+
+<section class="section section--tight">
+  <div class="container">
+    <nav class="year-nav" aria-label="Jump to year">
+      {%- for y in years %}<a class="pill pill--link" href="#y{{ y }}">{{ y }}</a>{% endfor %}
+    </nav>
+    {%- for y in years %}
+    <h2 class="year-heading" id="y{{ y }}">{{ y }}</h2>
+    <div class="card-grid card-grid--3">
+      {%- for post in papers %}{% if post.year == y %}
+      {% include paper-card.html post=post %}
+      {%- endif %}{% endfor %}
+    </div>
+    {%- endfor %}
+  </div>
+</section>
+
+{% include cta.html title="Publishing with MetaSensors?" text="We love hearing about new research. Send us your paper and we may feature it here." %}
