@@ -1,0 +1,53 @@
+title: MBIENTLAB
+description: Wearable wireless 9-axis IMUs and environmental sensors
+url: "https://mbientlab.com"
+baseurl: ""
+locale: en-US
+email: hello@mbientlab.com
+repository: mbientlab/mbientlab.com
+
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: air
+
+search: true
+words_per_minute: 200
+timezone: America/Los_Angeles
+future: true
+
+include: ["_pages"]
+exclude: [vendor, tools, _scrape, README.md, Gemfile, Gemfile.lock, CNAME.disabled]
+
+permalink: /blog/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-include-cache
+
+social:
+  type: Organization
+  name: MbientLab
+  links:
+    - "https://www.facebook.com/mbientLab/"
+    - "https://twitter.com/mbientLab"
+    - "https://www.instagram.com/mbientlab/"
+    - "https://github.com/mbientlab"
+
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/mbientlab"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/mbientLab/"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://www.instagram.com/mbientlab/"
+
+defaults:
+  - scope: { path: "", type: posts }
+    values: { layout: single, author_profile: false, share: false, comments: false }
+  - scope: { path: "", type: pages }
+    values: { layout: single, author_profile: false }

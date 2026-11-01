@@ -1,0 +1,308 @@
+---
+title: "Troubleshooting"
+permalink: "/troubleshooting/"
+layout: "single"
+classes: "wide"
+author_profile: false
+last_modified_at: "2022-03-28"
+---
+<img alt="" loading="lazy" src="{{ '/assets/img/Debug-1.jpg' | relative_url }}"/> 
+
+<h2>GENERAL ITEMS</h2> 
+
+<p>Checklist to make sure your MetaSensor is working:</p> 
+
+<ul>
+<li>
+
+<i></i> 
+The LEDs on the board DO NOT automatically turn on.
+</li>
+<li>
+
+<i></i> 
+LEDs are NOT an indicator of your MetaSensor status.
+</li>
+<li>
+
+<i></i> 
+Make sure Bluetooth is ON. Check your phone settings.
+</li>
+<li>
+
+<i></i> 
+Delete the MetaBase App and download the latest version.
+</li>
+<li>
+
+<i></i> 
+Check to see if the battery is puffy or too low.
+</li>
+<li>
+
+<i></i> 
+Do not force open the case as this may damage your board!
+</li>
+</ul>
+
+<img alt="" loading="lazy" src="{{ '/assets/img/Debug-3.jpg' | relative_url }}"/> 
+
+<h2>WAKE IT UP</h2> 
+
+<p>All MetaSensors are shipped in sleep mode to conserve battery:</p> 
+
+<ul>
+<li>
+
+<i></i> 
+Plug it in to wake it up.
+</li>
+<li>
+
+<i></i> 
+You can also press the button to wake it up.
+</li>
+<li>
+
+<i></i> 
+It can take up to 40 seconds for a device to connect to your phone the first time. Be patient.
+</li>
+<li>
+
+<i></i> 
+Do not use your phone menu to connect to the sensor, use our Apps or APIs ONLY!
+</li>
+</ul>
+
+<img alt="" loading="lazy" src="{{ '/assets/img/Debug-4.png' | relative_url }}"/> 
+
+<h2>KEEP IT CHARGED</h2> 
+
+<p>It’s important to keep your MetaSensor charged.</p> 
+
+<ul>
+<li>
+
+<i></i> 
+Charge compatible devices using a micro-USB cable and AC adapter.
+</li>
+<li>
+
+<i></i> 
+Charge your device for a MINIMUM of 40 minutes.
+</li>
+<li>
+
+<i></i> 
+Use a UL certified cable and adapter to charge your MetaSensor.
+</li>
+<li>
+
+<i></i> 
+The USB port is for power only, it does not transfer data (except for the MMS).
+</li>
+<li>
+
+<i></i> 
+Leave it plugged in as you debug or troubleshoot.
+</li>
+</ul>
+
+<img alt="" loading="lazy" src="{{ '/assets/img/Debug-5.jpg' | relative_url }}"/> 
+
+<h2>UPDATE IT</h2> 
+
+<p>It’s important to keep your MetaSensor updated:</p> 
+
+<ul>
+<li>
+
+<i></i> 
+Connect to your device using the MetaBase App and update the firmware.
+</li>
+<li>
+
+<i></i> 
+If you have an issue, run a diagnostic scan and send us the results on the forum.
+</li>
+<li>
+
+<i></i> 
+If your device is in MetaBoot mode, wait 60 seconds for it to return to normal.
+</li>
+<li>
+
+<i></i> 
+If your device is stuck in MetaBoot, try to update its firmware.
+</li>
+<li>
+
+<i></i> 
+If your device is still stuck in MetaBoot, it may be a problem with your smartphone. Please try a different smartphone (phones cache the MetaBoot state even when the device is working properly).
+</li>
+</ul>
+
+<img alt="" loading="lazy" src="{{ '/assets/img/Debug-2.png' | relative_url }}"/> 
+
+<h2>PERFORM A SOFT RESET</h2> 
+
+<p>How to reset your device if you cannot connect to it:</p> 
+
+<ul>
+<li>
+
+<i></i> 
+Plug in the micro-USB cable or insert the coin-cell battery at the same time that you press down the button on the device.
+</li>
+<li>
+
+<i></i> 
+Release the button only once the USB cable or battery has been fully inserted (device should be charging/powered).
+</li>
+<li>
+
+<i></i> 
+This will cause the device to reset for 60 seconds.
+</li>
+<li>
+
+<i></i> 
+After waiting 1 minute, connect to your device using the MetaBase App.
+</li>
+<li>
+
+<i></i> 
+If you are using the MetaBase App, you may consider deleting the App and doing a fresh install.
+</li>
+</ul>
+
+<img alt="" loading="lazy" src="{{ '/assets/img/Debug-7.png' | relative_url }}"/> 
+
+<h2>PERFORM A HARD RESET</h2> 
+
+<p><strong>This should be done ONLY when recommended by our team.</strong> </p><p>If your device is unresponsive after following the previous steps, you can perform a hard reset:</p> 
+
+<ul>
+<li>
+
+<i></i> 
+Use conductive material such as a wire or tweezers and short any PWR and GND pins on the board while the device is powered (preferably plugged in).
+</li>
+<li>
+<a href="{{ '/documentation/' | relative_url }}">
+
+<i></i> 
+Please refer to the datasheet to find the best PWR and GRD pins on the device to short.
+</a>
+</li>
+<li>
+
+<i></i> 
+Success will be indicated by a dimly flashing LED during the shorting process. You should short the pins for 1ms.
+</li>
+<li>
+
+<i></i> 
+Please note this process may void the warranty. This step is for professionals ONLY! Damage may result from this.
+</li>
+<li>
+
+<i></i> 
+Try connecting again after this step.
+</li>
+</ul>
+
+<img alt="" loading="lazy" src="{{ '/assets/img/Debug-7.png' | relative_url }}"/> 
+
+<h2>Warranty</h2> 
+
+<p><b>We offer a 30 day limited warranty.</b></p> 
+
+<ul>
+<li>
+
+<i></i> 
+MetaSensors have a 30 day limited warranty (free DOA replacement or repair). Some exchanges allowed.
+</li>
+<li>
+
+<i></i> 
+DEVICES OUT OF WARRANTY OR RETURNED WITHOUT AN RMA # WILL NOT BE ACCEPTED.
+</li>
+<li>
+
+<i></i> 
+If you have an issue with your order (before using the MetaSensor), please email us.
+</li>
+<li>
+
+<i></i> 
+If you have an issue with your MetaSensor (upon usage), go to our community forum. All issues must be reported and documented on our forum.
+</li>
+<li>
+
+<i></i> 
+On the forum, please submit a Diagnostic report, Photos, and Videos of your issue.
+</li>
+</ul>
+
+<img alt="" loading="lazy" src="{{ '/assets/img/metamotionc6.jpg' | relative_url }}"/> 
+
+<h2>TROUBLESHOOTING</h2> 
+
+<p>Additional check to perform if you have issues with your MetaSensor:</p> 
+
+<ul>
+<li>
+
+<i></i> 
+Try to see if you can detect the MetaSensor using a Bluetooth scanner App or the Nordic App (iOS or Android).
+</li>
+<li>
+
+<i></i> 
+You can also check if your MetaSensor is advertising by using your phone's Bluetooth scanner.
+</li>
+<li>
+
+<i></i> 
+IF THE METASENSOR IS ADVERTISING, IT IS WORKING. This means the issue is with the App, APIs, or some other software.
+</li>
+<li>
+
+<i></i> 
+Try to use a different device. If your iPhone is not working, try an iPad or Android phone instead.
+</li>
+<li>
+
+<i></i> 
+Inspect the unit for physical damage. Look for physical defects or abuse. Do not open the case unless our team has asked you to do so.
+</li>
+</ul>
+
+<i></i> 
+
+<h3>
+
+							STILL HAVE AN ISSUE?						
+</h3>
+<p>
+						Use our community forum and report your issue in detail.					</p>
+
+<i></i> 
+
+<h3>
+
+							READY FOR NEXT STEPS?						
+</h3>
+<p>
+						Check out our tutorials to learn how to use our sensors.					</p>
+
+<i></i> 
+
+<h3>
+
+							NEED MORE SENSORS?						
+</h3>
+<p>
+						Our store features the latest offerings in our MetaSensor collection.					</p>
