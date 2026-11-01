@@ -1,0 +1,1830 @@
+{
+  "0.1" : {
+    "0" : {
+      "vanilla" : {
+        "1.0.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "1.8.9",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.0" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.1" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.2" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.5" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "2" : {
+      "vanilla" : {
+        "1.0.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "1.8.9",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.0" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.1" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.2" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.0" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.2.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.1" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.2.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.5" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "4" : {
+      "vanilla" : {
+        "1.2.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "5" : {
+      "1" : {
+        "1.5.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      },
+      "bootloader" : {
+        "0.2.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.1"
+        },
+        "0.3.1" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.2"
+        },
+        "0.3.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "0.4.0" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        }
+      },
+      "vanilla" : {
+        "1.2.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.8.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.8.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.7" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.4.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.5.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      }
+    },
+    "6" : {
+      "bootloader" : {
+        "0.2.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.1"
+        },
+        "0.3.1" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.2"
+        },
+        "0.3.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "0.4.0" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        }
+      },
+      "vanilla" : {
+        "1.3.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.7" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.4.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.5.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      }
+    },
+    "8" : {
+      "bootloader" : {
+        "0.4.0" : {
+          "filename" : "temp.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      },
+      "vanilla" : {
+        "1.6.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.6.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      }
+    },
+    "12" : {
+      "vanilla" : {
+        "1.5.182" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "13" : {
+      "vanilla" : {
+        "1.2.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "14" : {
+      "vanilla" : {
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "15" : {
+      "bootloader" : {
+        "0.2.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.1"
+        },
+        "0.3.1" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.2"
+        }
+      },
+      "vanilla" : {
+        "1.3.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.8.3",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.4.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        }
+      }
+    },
+    "16" : {
+      "vanilla" : {
+        "1.2.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "17" : {
+      "bootloader" : {
+        "0.3.1" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.0"
+        }
+      },
+      "vanilla" : {
+        "1.4.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        }
+      }
+    }
+  },
+  "0.2" : {
+    "0" : {
+      "vanilla" : {
+        "1.0.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "1.8.9",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.0" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.1" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.2" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.5" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "2" : {
+      "vanilla" : {
+        "1.0.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "1.8.9",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.0" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.1" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.2" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.0" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.2.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.1" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.2.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.5" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "4" : {
+      "vanilla" : {
+        "1.2.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "5" : {
+      "1" : {
+        "1.5.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      },
+      "bootloader" : {
+        "0.2.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.1"
+        },
+        "0.3.1" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.2"
+        },
+        "0.3.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "0.4.0" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        }
+      },
+      "vanilla" : {
+        "1.3.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.8.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.7" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.4.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.5.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      }
+    },
+    "6" : {
+      "129" : {
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        }
+      },
+      "bootloader" : {
+        "0.2.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.1"
+        },
+        "0.3.1" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.2"
+        },
+        "0.3.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "0.3.3" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "0.4.0" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.3"
+        }
+      },
+      "vanilla" : {
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.7" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.4.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.3"
+        },
+        "1.5.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      }
+    },
+    "10" : {
+      "vanilla" : {
+        "1.0.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "1.8.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.0.5" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "1.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.0.7" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "1.11.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.0" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.1" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.2" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "11" : {
+      "vanilla" : {
+        "1.1.0" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.1" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.2" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.5" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "12" : {
+      "vanilla" : {
+        "1.20.112" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "15" : {
+      "bootloader" : {
+        "0.2.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.1"
+        },
+        "0.3.1" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.2"
+        }
+      },
+      "vanilla" : {
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.4.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        }
+      }
+    },
+    "18" : {
+      "bootloader" : {
+        "0.3.1" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.0"
+        },
+        "0.3.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        }
+      },
+      "vanilla" : {
+        "1.4.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.18.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.18.2" : {
+          "filename" : "fw_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        }
+      }
+    }
+  },
+  "0.3" : {
+    "1" : {
+      "vanilla" : {
+        "1.0.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "1.8.9",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.0" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.1" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.2" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.1.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.0.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.5" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "2" : {
+      "vanilla" : {
+        "1.2.2" : {
+          "filename" : "fw.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.0"
+        },
+        "1.2.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.0"
+        },
+        "1.2.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.0"
+        },
+        "1.2.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.0"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.0"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.0"
+        }
+      }
+    },
+    "5" : {
+      "1" : {
+        "1.5.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      },
+      "128" : {
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        }
+      },
+      "129" : {
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        }
+      },
+      "bootloader" : {
+        "0.2.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.1"
+        },
+        "0.3.1" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.2"
+        },
+        "0.3.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "0.3.3" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "0.4.0" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.3"
+        }
+      },
+      "vanilla" : {
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.7" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.4.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.3"
+        },
+        "1.5.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      }
+    },
+    "11" : {
+      "vanilla" : {
+        "1.2.3" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.4" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.2.5" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.bin",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "12" : {
+      "vanilla" : {
+        "1.20.112" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    }
+  },
+  "0.4" : {
+    "1" : {
+      "vanilla" : {
+        "1.2.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "2" : {
+      "vanilla" : {
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.0"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.0"
+        }
+      }
+    },
+    "5" : {
+      "1" : {
+        "1.5.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      },
+      "128" : {
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.3"
+        }
+      },
+      "bootloader" : {
+        "0.3.3" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "0.4.0" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.3"
+        }
+      },
+      "vanilla" : {
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.3"
+        },
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.3"
+        },
+        "1.5.0" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      }
+    },
+    "11" : {
+      "vanilla" : {
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.3"
+        }
+      }
+    },
+    "12" : {
+      "vanilla" : {
+        "1.20.112" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    }
+  },
+  "0.5" : {
+    "1" : {
+      "vanilla" : {
+        "1.2.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.5.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        }
+      }
+    },
+    "2" : {
+      "bootloader" : {
+        "0.2.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.1"
+        },
+        "0.3.1" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.2"
+        },
+        "0.3.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        }
+      },
+      "vanilla" : {
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.7" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.4.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        }
+      }
+    },
+    "5" : {
+      "1" : {
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      },
+      "bootloader" : {
+        "0.4.0" : {
+          "filename" : "temp.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      },
+      "vanilla" : {
+        "1.5.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        },
+        "1.7.3" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.4.0"
+        }
+      }
+    }
+  },
+  "0.6" : {
+    "1" : {
+      "bootloader" : {
+        "0.2.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.1"
+        },
+        "0.3.1" : {
+          "filename" : "sd_bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.2.2"
+        },
+        "0.3.2" : {
+          "filename" : "bl.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        }
+      },
+      "vanilla" : {
+        "1.3.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.6" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.3.7" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "2.9.0",
+          "required-bootloader" : "0.2.1"
+        },
+        "1.4.1" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.1"
+        },
+        "1.4.2" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.5.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.4" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        },
+        "1.4.5" : {
+          "filename" : "firmware.zip",
+          "min-android-version" : "3.6.0",
+          "min-ios-version" : "3.1.3",
+          "required-bootloader" : "0.3.2"
+        }
+      }
+    }
+  }
+}
