@@ -1,0 +1,84 @@
+// Design tokens. Brand blues come from the mbientlab.com palette:
+// cyan #01C1CB (primary) and teal #00ABB3 (accent), on near-black #14171C.
+
+:root {
+  --brand-50: #ecfcfd;
+  --brand-100: #cff6f8;
+  --brand-200: #a3edf1;
+  --brand-300: #5fdfe6;
+  --brand-400: #01c1cb;
+  --brand-500: #00abb3;
+  --brand-600: #008a92;
+  --brand-700: #006e75;
+  --brand-800: #07585e;
+  --brand-900: #0b484d;
+  --deep: #0b1117;
+  --deep-2: #14171c;
+  --deep-3: #1b232c;
+
+  --bg: #ffffff;
+  --bg-soft: #f5fafb;
+  --bg-tint: #eef8f9;
+  --surface: #ffffff;
+  --surface-2: #f7f9fa;
+  --border: #e3e9ec;
+  --border-strong: #cfd8dc;
+  --text: #0f1a20;
+  --text-2: #43525b;
+  --text-3: #67767e;
+  --link: var(--brand-700);
+  --accent: var(--brand-500);
+  --accent-strong: var(--brand-600);
+  --on-accent: #ffffff;
+  --focus: #00abb3;
+  --warn-bg: #fff7e8;
+  --warn-border: #f5c46b;
+  --warn-text: #7a4b00;
+  --media-bg: #f2f5f6;
+
+  --shadow-sm: 0 1px 2px rgba(15, 26, 32, .06), 0 1px 1px rgba(15, 26, 32, .04);
+  --shadow-md: 0 4px 12px -2px rgba(15, 26, 32, .08), 0 2px 4px -2px rgba(15, 26, 32, .05);
+  --shadow-lg: 0 24px 48px -12px rgba(11, 72, 77, .18);
+
+  --radius-sm: 8px;
+  --radius: 14px;
+  --radius-lg: 22px;
+  --radius-pill: 999px;
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --container: 1200px;
+  --gutter: clamp(16px, 4vw, 32px);
+  --header-h: 68px;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
+
+@mixin dark-tokens {
+  --bg: #0b1117;
+  --bg-soft: #0f161d;
+  --bg-tint: #0f1a21;
+  --surface: #121b23;
+  --surface-2: #16212a;
+  --border: #22303a;
+  --border-strong: #2e3e49;
+  --text: #e8f0f2;
+  --text-2: #a9b8bf;
+  --text-3: #85959d;
+  --link: var(--brand-300);
+  --accent: var(--brand-400);
+  --accent-strong: var(--brand-300);
+  --on-accent: #04252a;
+  --warn-bg: #2a2110;
+  --warn-border: #7a5a1c;
+  --warn-text: #f4d29a;
+  --media-bg: #e9eef0;
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, .4);
+  --shadow-md: 0 6px 16px -4px rgba(0, 0, 0, .5);
+  --shadow-lg: 0 24px 48px -12px rgba(0, 0, 0, .6);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) { @include dark-tokens; }
+}
+:root[data-theme="dark"] { @include dark-tokens; }

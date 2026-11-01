@@ -1,0 +1,9 @@
+<section class="page-hero{% if include.compact %} page-hero--compact{% endif %}">
+  <div class="container">
+    <div class="page-hero__inner">
+      {%- if include.eyebrow %}<p class="eyebrow">{{ include.eyebrow }}</p>{% endif %}
+      <h1 class="page-hero__title">{{ include.title }}</h1>
+      {%- if include.lead %}<p class="page-hero__lead">{{ include.lead }}</p>{% endif %}
+    </div>
+  </div>
+</section>

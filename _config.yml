@@ -1,53 +1,46 @@
-title: MBIENTLAB
-description: Wearable wireless 9-axis IMUs and environmental sensors
+title: MbientLab
+tagline: Wearable wireless 9-axis IMUs and environmental sensors
+description: >-
+  Small wireless sensor development boards for prototyping, research and
+  product development. Stream or log motion and environmental data over
+  Bluetooth Low Energy.
 url: "https://mbientlab.com"
 baseurl: ""
-locale: en-US
-email: hello@mbientlab.com
-repository: mbientlab/mbientlab.com
-
-theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: air
-
-search: true
-words_per_minute: 200
+lang: en-US
 timezone: America/Los_Angeles
 future: true
 
+email: hello@mbientlab.com
+address: Made in the USA, California.
+docs_url: https://docs.mbientlab.com
+github_url: https://github.com/mbientlab
+app_store_url: https://apps.apple.com/us/app/metawear/id1547334547
+
+logo: /assets/img/favicon.jpg
+social:
+  name: MbientLab
+  links:
+    - https://github.com/mbientlab
+    - https://twitter.com/mbientLab
+    - https://www.facebook.com/mbientLab/
+    - https://www.instagram.com/mbientlab/
+
 include: ["_pages"]
-exclude: [vendor, tools, _scrape, README.md, Gemfile, Gemfile.lock, CNAME.disabled]
+exclude: [vendor, tools, _scrape, README.md, Gemfile, Gemfile.lock]
 
 permalink: /blog/:title/
+
+sass:
+  style: compressed
+  sourcemap: never
 
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-include-cache
-
-social:
-  type: Organization
-  name: MbientLab
-  links:
-    - "https://www.facebook.com/mbientLab/"
-    - "https://twitter.com/mbientLab"
-    - "https://www.instagram.com/mbientlab/"
-    - "https://github.com/mbientlab"
-
-footer:
-  links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/mbientlab"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/mbientLab/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/mbientlab/"
 
 defaults:
   - scope: { path: "", type: posts }
-    values: { layout: single, author_profile: false, share: false, comments: false }
-  - scope: { path: "", type: pages }
-    values: { layout: single, author_profile: false }
+    values: { layout: post }
+  - scope: { path: "" }
+    values: { layout: page }

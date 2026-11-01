@@ -1,0 +1,14 @@
+---
+layout: default
+---
+{%- unless page.hide_hero -%}
+{% include page-hero.html title=page.title eyebrow=page.eyebrow lead=page.lead compact=true %}
+{%- endunless -%}
+<div class="section section--tight">
+  <div class="container container--prose">
+    <article class="prose">
+      {%- if page.last_modified_at %}<p class="meta">Last updated {{ page.last_modified_at | date: "%B %-d, %Y" }}</p>{% endif %}
+      {{ content }}
+    </article>
+  </div>
+</div>
