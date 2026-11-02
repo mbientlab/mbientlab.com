@@ -15,3 +15,24 @@ sitemap: false
     </div>
   </div>
 </section>
+<script>
+  (function () {
+    var exact = {{ site.data.redirects.exact | jsonify }};
+    var prefix = {{ site.data.redirects.prefix | jsonify }};
+    var base = {{ site.baseurl | jsonify }};
+    var path = location.pathname;
+    if (base && path.indexOf(base) === 0) path = path.slice(base.length);
+    var key = path.toLowerCase().replace(/\/+$/, "") || "/";
+    var target = exact[key];
+    if (!target) {
+      for (var p in prefix) {
+        if (key.indexOf(p) === 0 || key + "/" === p) {
+          target = prefix[p];
+          if (target.slice(-1) === "*") target = target.slice(0, -1) + path.slice(p.length);
+          break;
+        }
+      }
+    }
+    if (target) location.replace(/^https?:/.test(target) ? target : base + target);
+  })();
+</script>
