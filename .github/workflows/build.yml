@@ -18,3 +18,5 @@ jobs:
       - run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
+      - name: Check firmware catalog files
+        run: python3 .github/scripts/check-releases.py _site
