@@ -1,0 +1,49 @@
+# Old WordPress URLs and where they now live. GitHub Pages cannot send real
+# redirects, so 404.html looks the missing path up here and forwards the
+# browser. Paths are matched lowercase, without a trailing slash.
+
+# Whole path must match.
+exact:
+  /3669a-blog: /blog/
+  /company: /about/
+  /faq: /troubleshooting/
+  /support: /troubleshooting/
+  /rma: /contact/
+  /ticket: /contact/
+  /adminticket: /contact/
+  /metamotionr: /metamotionrl/
+  /metamotionc: /
+  /metatracker: /
+  /metahub: /
+  /boards: /
+  /pricing: /
+  /services: /
+  /portfolio-single: /
+  /cart: /
+  /checkout: /
+  /my-account: /
+  /docs: https://docs.mbientlab.com
+  /documents: https://docs.mbientlab.com
+  /developers: https://docs.mbientlab.com
+  /documentation: https://docs.mbientlab.com
+  /software: https://docs.mbientlab.com
+
+# Path starts with the key. Checked in order, first match wins. A target
+# ending in "*" gets the rest of the old path appended.
+prefix:
+  /docs/: /documents/*
+  /documents/metawear/: https://docs.mbientlab.com
+  /cppdocs: https://docs.mbientlab.com
+  /androiddocs: https://docs.mbientlab.com
+  /iosdocs: https://docs.mbientlab.com
+  /pythondocs: https://docs.mbientlab.com
+  /javascriptdocs: https://docs.mbientlab.com
+  /csdocs: https://docs.mbientlab.com
+  /tutorials: https://docs.mbientlab.com
+  /community: /contact/
+  /blog/author/: /blog/
+  /blog/page/: /blog/
+  /3669a-blog/: /blog/
+  /shop: /
+  /store: /
+  /product: /
