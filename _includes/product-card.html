@@ -1,0 +1,10 @@
+{%- assign p = include.p -%}
+<a class="product-card" href="{{ p.url | relative_url }}">
+  <div class="product-card__media"><img src="{{ '/assets/img/' | append: p.card_image | relative_url }}" alt="{{ p.name }} board" loading="lazy"></div>
+  <div class="product-card__body">
+    <p class="product-card__badge"><span class="pill">{{ p.short }}</span> {{ p.badge }}</p>
+    <h3 class="product-card__title">{{ p.name }}</h3>
+    <p class="product-card__text">{{ p.card_text }}</p>
+    <span class="product-card__more">Explore {{ p.short }} {% include icon.html name="arrow-right" class="icon--sm" %}</span>
+  </div>
+</a>

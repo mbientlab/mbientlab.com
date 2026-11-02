@@ -1,0 +1,47 @@
+<header class="site-header" data-header>
+  <div class="container site-header__inner">
+    <a class="brand" href="{{ '/' | relative_url }}" aria-label="MbientLab home">
+      <img class="brand__mark" src="{{ '/assets/img/favicon.jpg' | relative_url }}" alt="" width="32" height="32">
+      <span class="brand__name">MBIENTLAB</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+      <span class="sr-only">Menu</span>
+      <span class="nav-toggle__open">{% include icon.html name="menu" %}</span>
+      <span class="nav-toggle__close">{% include icon.html name="close" %}</span>
+    </button>
+
+    <nav class="site-nav" id="site-nav" aria-label="Main" data-nav>
+      <ul class="site-nav__list">
+        {%- for item in site.data.navigation.main -%}
+        {%- if item.children -%}
+          {%- assign active = false -%}
+          {%- for c in item.children -%}{%- if page.url == c.url -%}{%- assign active = true -%}{%- endif -%}{%- endfor -%}
+        <li class="site-nav__item">
+          <details class="dropdown" data-dropdown>
+            <summary class="site-nav__link{% if active %} is-active{% endif %}">{{ item.title }} {% include icon.html name="chevron-down" class="dropdown__caret" %}</summary>
+            <ul class="dropdown__menu">
+              {%- for c in item.children -%}
+              <li><a class="dropdown__link" href="{{ c.url | relative_url }}"{% if page.url == c.url %} aria-current="page"{% endif %}>
+                <span class="dropdown__title">{{ c.title }}</span>
+                <span class="dropdown__desc">{{ c.description }}</span>
+              </a></li>
+              {%- endfor -%}
+            </ul>
+          </details>
+        </li>
+        {%- else -%}
+        {%- assign is_current = false -%}
+        {%- if page.url == item.url or page.layout == "post" and item.url == "/blog/" -%}{%- assign is_current = true -%}{%- endif -%}
+        <li class="site-nav__item">
+          <a class="site-nav__link{% if is_current %} is-active{% endif %}" href="{% if item.external %}{{ item.url }}{% else %}{{ item.url | relative_url }}{% endif %}"{% if is_current %} aria-current="page"{% endif %}>
+            {{ item.title }}{% if item.external %} {% include icon.html name="arrow-up-right" class="icon--xs" %}{% endif %}
+          </a>
+        </li>
+        {%- endif -%}
+        {%- endfor -%}
+      </ul>
+      <a class="btn btn--primary btn--sm site-nav__cta" href="{{ '/contact/' | relative_url }}">Contact us</a>
+    </nav>
+  </div>
+</header>

@@ -1,0 +1,33 @@
+<footer class="site-footer">
+  <div class="container">
+    <div class="site-footer__top">
+      <div class="site-footer__brand">
+        <a class="brand brand--footer" href="{{ '/' | relative_url }}">
+          <img class="brand__mark" src="{{ '/assets/img/favicon.jpg' | relative_url }}" alt="" width="32" height="32">
+          <span class="brand__name">MBIENTLAB</span>
+        </a>
+        <p>Small wireless sensors.</p>
+        <ul class="social" aria-label="Social">
+          <li><a href="https://github.com/mbientlab" aria-label="GitHub">{% include icon.html name="github" %}</a></li>
+          <li><a href="https://twitter.com/mbientLab" aria-label="X (Twitter)">{% include icon.html name="twitter" %}</a></li>
+          <li><a href="https://www.facebook.com/mbientLab/" aria-label="Facebook">{% include icon.html name="facebook" %}</a></li>
+          <li><a href="https://www.instagram.com/mbientlab/" aria-label="Instagram">{% include icon.html name="instagram" %}</a></li>
+        </ul>
+      </div>
+      {%- for col in site.data.navigation.footer %}
+      <div class="site-footer__col">
+        <h2 class="site-footer__heading">{{ col.title }}</h2>
+        <ul>
+          {%- for l in col.links %}
+          <li><a href="{% if l.url contains '://' %}{{ l.url }}{% else %}{{ l.url | relative_url }}{% endif %}">{{ l.title }}</a></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {%- endfor %}
+    </div>
+    <div class="site-footer__bottom">
+      <p>&copy; {{ site.time | date: "%Y" }} MbientLab, Inc. All rights reserved.</p>
+      <p><a href="mailto:{{ site.email }}">{{ site.email }}</a> &middot; {{ site.address }}</p>
+    </div>
+  </div>
+</footer>

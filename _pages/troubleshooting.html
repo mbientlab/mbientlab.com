@@ -1,295 +1,151 @@
 ---
-title: "Troubleshooting"
-permalink: "/troubleshooting/"
-layout: "single"
-classes: "wide"
-author_profile: false
-last_modified_at: "2022-03-28"
+title: Troubleshooting
+permalink: /troubleshooting/
+layout: default
+description: Checklists, resets and warranty information for MetaSensors.
+topics:
+  - id: general
+    icon: check
+    title: General items
+    intro: A checklist to make sure your MetaSensor is working.
+    image: Debug-1.jpg
+    items:
+      - The LEDs on the board do not turn on automatically.
+      - LEDs are not an indicator of your MetaSensor's status.
+      - Make sure Bluetooth is on. Check your phone settings.
+      - Delete the MetaWear app and download the latest version.
+      - Check whether the battery is puffy or too low.
+      - Do not force open the case, as this may damage your board.
+  - id: wake
+    icon: zap
+    title: Wake it up
+    intro: All MetaSensors ship in sleep mode to conserve battery.
+    image: Debug-3.jpg
+    items:
+      - Plug it in to wake it up.
+      - You can also press the button to wake it up.
+      - It can take up to 40 seconds for a device to connect to your phone the first time. Be patient.
+      - Do not use your phone's Bluetooth menu to connect to the sensor. Use our apps or APIs only.
+  - id: charge
+    icon: battery
+    title: Keep it charged
+    intro: It's important to keep your MetaSensor charged.
+    image: Debug-4.png
+    items:
+      - Charge compatible devices using a micro-USB cable and AC adapter.
+      - Charge your device for a minimum of 40 minutes.
+      - Use a UL certified cable and adapter to charge your MetaSensor.
+      - The USB port is for power only. It does not transfer data (except on the MMS).
+      - Leave it plugged in while you debug or troubleshoot.
+  - id: update
+    icon: refresh
+    title: Update it
+    intro: It's important to keep your MetaSensor updated.
+    image: Debug-5.jpg
+    items:
+      - Connect to your device using the MetaWear app and update the firmware.
+      - If you have an issue, run a diagnostic scan and send us the results on the forum.
+      - If your device is in MetaBoot mode, wait 60 seconds for it to return to normal.
+      - If your device is stuck in MetaBoot, try to update its firmware.
+      - If it is still stuck in MetaBoot, the problem may be your smartphone, since phones cache the MetaBoot state even when the device is working properly. Try a different smartphone.
+  - id: soft-reset
+    icon: power
+    title: Perform a soft reset
+    intro: How to reset your device if you cannot connect to it.
+    image: Debug-2.png
+    ordered: true
+    items:
+      - Plug in the micro-USB cable or insert the coin-cell battery while pressing down the button on the device.
+      - Release the button only once the USB cable or battery is fully inserted (the device should be charging or powered).
+      - The device resets for 60 seconds.
+      - After waiting 1 minute, connect to your device using the app.
+      - If that fails, consider deleting the app and doing a fresh install.
+  - id: hard-reset
+    icon: alert
+    title: Perform a hard reset
+    intro: If your device is unresponsive after the previous steps, you can perform a hard reset.
+    warning: Only do this when our team recommends it. This step is for professionals only, may damage the board, and may void the warranty.
+    image: Debug-7.png
+    ordered: true
+    items:
+      - Use conductive material such as a wire or tweezers to short any PWR and GND pins on the board while the device is powered (preferably plugged in).
+      - A dimly flashing LED during the shorting process indicates success. Short the pins for 1 ms.
+      - Try connecting again.
+  - id: more
+    icon: target
+    title: Additional checks
+    intro: More to check if you still have issues with your MetaSensor.
+    image: metamotionc6.jpg
+    items:
+      - Try to detect the MetaSensor with a Bluetooth scanner app such as nRF Connect from Nordic (iOS or Android).
+      - You can also check whether your MetaSensor is advertising with your phone's Bluetooth scanner.
+      - If the MetaSensor is advertising, it is working. The issue is with the app, APIs, or other software.
+      - Try a different device. If your iPhone is not working, try an iPad or Android phone instead.
+      - Inspect the unit for physical damage or defects. Do not open the case unless our team has asked you to.
+  - id: warranty
+    icon: shield
+    title: Warranty
+    intro: We offer a 30-day limited warranty.
+    items:
+      - MetaSensors have a 30-day limited warranty (free DOA replacement or repair). Some exchanges are allowed.
+      - Devices out of warranty or returned without an RMA number will not be accepted.
+      - If you have an issue with your MetaSensor during use, report it on our community forum. All issues must be reported and documented there.
+      - On the forum, please submit a diagnostic report, photos, and videos of your issue.
 ---
-<img alt="" loading="lazy" src="{{ '/assets/img/Debug-1.jpg' | relative_url }}"/> 
-
-<h2>GENERAL ITEMS</h2> 
-
-<p>Checklist to make sure your MetaSensor is working:</p> 
-
-<ul>
-<li>
-
-<i></i> 
-The LEDs on the board DO NOT automatically turn on.
-</li>
-<li>
-
-<i></i> 
-LEDs are NOT an indicator of your MetaSensor status.
-</li>
-<li>
-
-<i></i> 
-Make sure Bluetooth is ON. Check your phone settings.
-</li>
-<li>
-
-<i></i> 
-Delete the MetaBase App and download the latest version.
-</li>
-<li>
-
-<i></i> 
-Check to see if the battery is puffy or too low.
-</li>
-<li>
-
-<i></i> 
-Do not force open the case as this may damage your board!
-</li>
-</ul>
-
-<img alt="" loading="lazy" src="{{ '/assets/img/Debug-3.jpg' | relative_url }}"/> 
-
-<h2>WAKE IT UP</h2> 
-
-<p>All MetaSensors are shipped in sleep mode to conserve battery:</p> 
-
-<ul>
-<li>
-
-<i></i> 
-Plug it in to wake it up.
-</li>
-<li>
-
-<i></i> 
-You can also press the button to wake it up.
-</li>
-<li>
-
-<i></i> 
-It can take up to 40 seconds for a device to connect to your phone the first time. Be patient.
-</li>
-<li>
-
-<i></i> 
-Do not use your phone menu to connect to the sensor, use our Apps or APIs ONLY!
-</li>
-</ul>
-
-<img alt="" loading="lazy" src="{{ '/assets/img/Debug-4.png' | relative_url }}"/> 
-
-<h2>KEEP IT CHARGED</h2> 
-
-<p>It’s important to keep your MetaSensor charged.</p> 
-
-<ul>
-<li>
-
-<i></i> 
-Charge compatible devices using a micro-USB cable and AC adapter.
-</li>
-<li>
-
-<i></i> 
-Charge your device for a MINIMUM of 40 minutes.
-</li>
-<li>
-
-<i></i> 
-Use a UL certified cable and adapter to charge your MetaSensor.
-</li>
-<li>
-
-<i></i> 
-The USB port is for power only, it does not transfer data (except for the MMS).
-</li>
-<li>
-
-<i></i> 
-Leave it plugged in as you debug or troubleshoot.
-</li>
-</ul>
-
-<img alt="" loading="lazy" src="{{ '/assets/img/Debug-5.jpg' | relative_url }}"/> 
-
-<h2>UPDATE IT</h2> 
-
-<p>It’s important to keep your MetaSensor updated:</p> 
-
-<ul>
-<li>
-
-<i></i> 
-Connect to your device using the MetaBase App and update the firmware.
-</li>
-<li>
-
-<i></i> 
-If you have an issue, run a diagnostic scan and send us the results on the forum.
-</li>
-<li>
-
-<i></i> 
-If your device is in MetaBoot mode, wait 60 seconds for it to return to normal.
-</li>
-<li>
-
-<i></i> 
-If your device is stuck in MetaBoot, try to update its firmware.
-</li>
-<li>
-
-<i></i> 
-If your device is still stuck in MetaBoot, it may be a problem with your smartphone. Please try a different smartphone (phones cache the MetaBoot state even when the device is working properly).
-</li>
-</ul>
-
-<img alt="" loading="lazy" src="{{ '/assets/img/Debug-2.png' | relative_url }}"/> 
-
-<h2>PERFORM A SOFT RESET</h2> 
-
-<p>How to reset your device if you cannot connect to it:</p> 
-
-<ul>
-<li>
-
-<i></i> 
-Plug in the micro-USB cable or insert the coin-cell battery at the same time that you press down the button on the device.
-</li>
-<li>
-
-<i></i> 
-Release the button only once the USB cable or battery has been fully inserted (device should be charging/powered).
-</li>
-<li>
-
-<i></i> 
-This will cause the device to reset for 60 seconds.
-</li>
-<li>
-
-<i></i> 
-After waiting 1 minute, connect to your device using the MetaBase App.
-</li>
-<li>
-
-<i></i> 
-If you are using the MetaBase App, you may consider deleting the App and doing a fresh install.
-</li>
-</ul>
-
-<img alt="" loading="lazy" src="{{ '/assets/img/Debug-7.png' | relative_url }}"/> 
-
-<h2>PERFORM A HARD RESET</h2> 
-
-<p><strong>This should be done ONLY when recommended by our team.</strong> </p><p>If your device is unresponsive after following the previous steps, you can perform a hard reset:</p> 
-
-<ul>
-<li>
-
-<i></i> 
-Use conductive material such as a wire or tweezers and short any PWR and GND pins on the board while the device is powered (preferably plugged in).
-</li>
-<li>
-<a href="https://docs.mbientlab.com">
-
-<i></i> 
-Please refer to the datasheet to find the best PWR and GRD pins on the device to short.
-</a>
-</li>
-<li>
-
-<i></i> 
-Success will be indicated by a dimly flashing LED during the shorting process. You should short the pins for 1ms.
-</li>
-<li>
-
-<i></i> 
-Please note this process may void the warranty. This step is for professionals ONLY! Damage may result from this.
-</li>
-<li>
-
-<i></i> 
-Try connecting again after this step.
-</li>
-</ul>
-
-<img alt="" loading="lazy" src="{{ '/assets/img/Debug-7.png' | relative_url }}"/> 
-
-<h2>Warranty</h2> 
-
-<p><b>We offer a 30 day limited warranty.</b></p> 
-
-<ul>
-<li>
-
-<i></i> 
-MetaSensors have a 30 day limited warranty (free DOA replacement or repair). Some exchanges allowed.
-</li>
-<li>
-
-<i></i> 
-DEVICES OUT OF WARRANTY OR RETURNED WITHOUT AN RMA # WILL NOT BE ACCEPTED.
-</li>
-<li>
-
-<i></i> 
-If you have an issue with your MetaSensor (upon usage), go to our community forum. All issues must be reported and documented on our forum.
-</li>
-<li>
-
-<i></i> 
-On the forum, please submit a Diagnostic report, Photos, and Videos of your issue.
-</li>
-</ul>
-
-<img alt="" loading="lazy" src="{{ '/assets/img/metamotionc6.jpg' | relative_url }}"/> 
-
-<h2>TROUBLESHOOTING</h2> 
-
-<p>Additional check to perform if you have issues with your MetaSensor:</p> 
-
-<ul>
-<li>
-
-<i></i> 
-Try to see if you can detect the MetaSensor using a Bluetooth scanner App or the Nordic App (iOS or Android).
-</li>
-<li>
-
-<i></i> 
-You can also check if your MetaSensor is advertising by using your phone's Bluetooth scanner.
-</li>
-<li>
-
-<i></i> 
-IF THE METASENSOR IS ADVERTISING, IT IS WORKING. This means the issue is with the App, APIs, or some other software.
-</li>
-<li>
-
-<i></i> 
-Try to use a different device. If your iPhone is not working, try an iPad or Android phone instead.
-</li>
-<li>
-
-<i></i> 
-Inspect the unit for physical damage. Look for physical defects or abuse. Do not open the case unless our team has asked you to do so.
-</li>
-</ul>
-
-<i></i> 
-
-<h3>
-
-							STILL HAVE AN ISSUE?						
-</h3>
-<p>
-						Use our community forum and report your issue in detail.					</p>
-
-<i></i> 
-
-<h3>
-
-							READY FOR NEXT STEPS?						
-</h3>
-<p>
-						Check out our tutorials to learn how to use our sensors.					</p>
-
+{% include page-hero.html eyebrow="Support" title="Troubleshooting" lead="Most issues come down to sleep mode, charge or firmware. Work through these checklists before contacting us." %}
+
+<section class="section section--tight">
+  <div class="container ts-layout">
+    <nav class="toc" aria-label="On this page">
+      <p class="toc__title">On this page</p>
+      <ul>
+        {%- for t in page.topics %}<li><a href="#{{ t.id }}">{{ t.title }}</a></li>{% endfor %}
+      </ul>
+    </nav>
+    <div class="ts-list">
+      {%- for t in page.topics %}
+      <article class="ts-card{% if t.warning %} ts-card--warn{% endif %}" id="{{ t.id }}">
+        <div class="ts-card__body">
+          <div class="ts-card__head">
+            <span class="ts-card__icon">{% include icon.html name=t.icon %}</span>
+            <div>
+              <h2 class="ts-card__title">{{ t.title }}</h2>
+              <p class="ts-card__intro">{{ t.intro }}</p>
+            </div>
+          </div>
+          {%- if t.warning %}
+          <p class="callout callout--warn">{% include icon.html name="alert" class="icon--sm" %}<span>{{ t.warning }}</span></p>
+          {%- endif %}
+          {%- if t.ordered %}<ol class="numbered">{% else %}<ul class="checklist checklist--sm">{% endif %}
+            {%- for i in t.items %}
+            <li>{% unless t.ordered %}{% include icon.html name="check" class="checklist__icon" stroke=2.25 %}{% endunless %}<span>{{ i }}</span></li>
+            {%- endfor %}
+          {%- if t.ordered %}</ol>{% else %}</ul>{% endif %}
+        </div>
+        {%- if t.image %}
+        <figure class="ts-card__media"><img src="{{ '/assets/img/' | append: t.image | relative_url }}" alt="" loading="lazy" width="800" height="800"></figure>
+        {%- endif %}
+      </article>
+      {%- endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section section--tint">
+  <div class="container">
+    <div class="card-grid card-grid--2">
+      <a class="contact-card" href="mailto:{{ site.email }}">
+        <span class="contact-card__icon">{% include icon.html name="mail" %}</span>
+        <h2 class="contact-card__title">Still have an issue?</h2>
+        <p class="contact-card__text">Report it in detail with a diagnostic report, photos and video, and we will take a look.</p>
+        <span class="link-arrow">{{ site.email }} {% include icon.html name="arrow-right" class="icon--sm" %}</span>
+      </a>
+      <a class="contact-card" href="{{ site.docs_url }}">
+        <span class="contact-card__icon">{% include icon.html name="book" %}</span>
+        <h2 class="contact-card__title">Ready for next steps?</h2>
+        <p class="contact-card__text">Check out our tutorials to learn how to use our sensors.</p>
+        <span class="link-arrow">Tutorials {% include icon.html name="arrow-up-right" class="icon--sm" %}</span>
+      </a>
+    </div>
+  </div>
+</section>
